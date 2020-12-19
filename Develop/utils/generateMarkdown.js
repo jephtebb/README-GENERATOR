@@ -59,6 +59,11 @@ function generateMarkdown(data) {
 
   ## Tests
   ${data.test}
+
+  ## Questions
+  For more assistance about the README generator, visit my github page in the following link:
+  [Github Profile](https://github.com/${data.username})
+  Or you can reach out to me via email: ${data.email}
 `;
 }
 
