@@ -14,13 +14,13 @@
   * [questions](#questions)
 
   ## Description
-  This project is used to auto generate a readme file, using prompts in the terminal, using inquirer, based on the information provided by the user.
+  This project is used to auto generate a readme file, using prompts in the terminal, using an npm package called inquirer, based on the information provided by the user.
 
   ## Installation Instructions
   You can run this application in your local device by cloning it into your computer.
 
   ## Usage Information
-  This app is used to auto generate a README 
+  To use this application, run npm install in your terminal and make sure you have node download in your local device. Then, run node index.js
 
   
   ## Credits
