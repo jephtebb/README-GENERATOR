@@ -1,31 +1,9 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-  renderLicenseBadge = (license) => {
-    if (license){
-      return `License](https://img.shields.io/badge/License-${data.license}-blue.svg)]'License Badge')`
-    }else {
-      return '';
-    }
-
-  }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  if (license){
-    return `[License](https://opensource.org/licenses/${data.license})`
-  }else{
-    return '';
-  }
-}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+ generateMarkdown = data => {
+  return `
+  ![GitHub](https://img.shields.io/github/license/${data.username}/${data.repo})
+  # ${data.title}
+  
 
   ## Table of Contents
   * [Title](#title)
@@ -33,17 +11,12 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributor](#contributing)
-  * /*License*/
+  * [License](#license)
   * [Tests](#tests)
   * [questions](#questions)
-  
-
-  
 
   ## Description
   ${data.description}
-
-  
 
   ## Installation Instructions
   ${data.installation}
@@ -51,18 +24,20 @@ function generateMarkdown(data) {
   ## Usage Information
   ${data.usage}
 
-  ## License
-  ${data.license}
+  
+  ## Credits
+  ${data.credit}
 
-  ## People who contributed in making this app
-  ${data.contributor}
+  ## License
+  This repo is cover under the  [${data.license}](https://opensource.org/licenses/${data.license}) License
+  
 
   ## Tests
   ${data.test}
 
   ## Questions
-  For more assistance about the README generator, visit my github page in the following link:
-  [Github Profile](https://github.com/${data.username})
+  For more info about the README generator, visit my github page in the following link:
+  [Github Profile](https://github.com/${data.username}) <br/>
   Or you can reach out to me via email: ${data.email}
 `;
 }
