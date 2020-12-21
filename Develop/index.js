@@ -10,7 +10,7 @@ const questions = [
   {
     type: 'input',
     name: 'title',
-    message: 'What is your title of the project?'
+    message: 'What is the title of the project?'
   },
   {
     type: 'input',
@@ -20,12 +20,12 @@ const questions = [
   {
     type: 'input',
     name: 'installation',
-    message: 'What do I need to install in order to run this app?'
+    message: 'What are the steps to install this application?'
   },
   {
     type: 'input',
     name: 'usage',
-    message: 'What is this app used for?'
+    message: 'How to use this application?'
   },
   {
     type: 'input',

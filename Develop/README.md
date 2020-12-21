@@ -1,6 +1,6 @@
 
   ![GitHub](https://img.shields.io/github/license/jephtebb/README-GENERATOR)
-  # README-GENERATOR
+  # README GENERATOR
   
 
   ## Table of Contents
@@ -14,20 +14,20 @@
   * [questions](#questions)
 
   ## Description
-  This project is used to auto generate a readme file, using prompts in the terminal, using an npm package called inquirer, based on the information provided by the user.
+  This project is used to auto generate a readme file, using prompts in the terminal and an npm package called inquirer, based on the information provided by the user.
 
   ## Installation Instructions
-  You can run this application in your local device by cloning it into your computer.
+  clone it from my repo and run npm install
 
   ## Usage Information
-  To use this application, run npm install in your terminal and make sure you have node download in your local device. Then, run node index.js
+  node index.js
 
   
   ## Credits
   N/A
 
   ## License
-  This repo is cover under the  [MIT](https://opensource.org/licenses/MIT) License
+  This repo is cover under the  [ISC](https://opensource.org/licenses/ISC) License
   
 
   ## Tests
